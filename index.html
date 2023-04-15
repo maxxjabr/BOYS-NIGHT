@@ -26,6 +26,8 @@ img {
 
 <img id=dontneed src="dontneed.gif" alt="i don't need it. i definitely don't need it." style="width:360px;height:360px;">
 
+<p id="vc"></p>
+
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Apr 14, 2023 21:30:00").getTime();
@@ -54,6 +56,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "BOYS NIGHT";
     document.getElementById("dontneed").src = "need.gif";
+    document.getElementById("vc").innerHTML = "join general vc";
   }
 }, 1000);
 </script>
